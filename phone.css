@@ -1,0 +1,110 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li{
+    font-size: 1rem;
+}
+
+#navbar ul li a{
+    padding: 0 0.4rem;
+}
+
+/* Home section */
+#home{
+    height: 300px;
+    padding: 0 70px;
+}
+
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 0.8rem;
+}
+/* Services section */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    height: 330px;
+    margin: 6px 8px;
+    padding: 5px 10px;
+}
+
+#services .box img{
+    height: 150px;
+    width: 150px;
+}
+
+#services .box p{
+    font-size: 0.8rem;
+}
+
+/* Clients section */
+#client-section{
+    overflow: hidden;
+}
+
+#client-section .clients{
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+#client-section .clients .client-item{
+    width: 170px;
+    height: 170px;
+    margin: 0 10px;
+    padding: 3px;
+}
+
+#client-section .clients .client-item img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Contact section */
+.form-group label{
+    font-size: 0.9rem;
+}
+
+.form-group input{
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    margin: 3px 0;
+}
+
+.form-group textarea{
+    font-size: 0.9rem;
+    padding: 2px 6px;
+}
+
+.form-group button{
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    margin: 4px 0;
+}
+
+.form-group button:hover{
+    font-size: 1rem ;
+    margin: 5px 0;
+}
+
+/* Utility */
+.h-primary{
+    font-size: 1.6rem;
+}
+
+.h-secondary{
+    font-size: 1rem;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 3px 8px;
+
+}
